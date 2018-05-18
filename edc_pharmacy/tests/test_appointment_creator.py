@@ -12,7 +12,7 @@ class TestAppointmentCreator(TestCase):
     def setUp(self):
         pass
 
-    @tag('1')
+    """@tag('1')
     def test_(self):
 
         visit = Visit(code='1000', timepoint=0)
@@ -28,4 +28,4 @@ class TestAppointmentCreator(TestCase):
             schedule_name='pharmacy',
         )
         # print(creator.appointment)
-        print(creator.appointment.appt_datetime)
+        print(creator.appointment.appt_datetime)"""
