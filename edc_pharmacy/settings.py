@@ -148,6 +148,13 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'edc_pharmacy', 'static')
+
+DASHBOARD_URL_NAMES = {
+    'subject_listboard_url': 'edc_dashboard:subject_listboard_url',
+    'screening_listboard_url': 'edc_dashboard:screening_listboard_url',
+    'subject_dashboard_url': 'edc_dashboard:subject_dashboard_url',
+}
+
 GIT_DIR = BASE_DIR
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
