@@ -11,3 +11,9 @@ git+https://github.com/botswana-harvard/edc-search@develop#egg=edc-search
 git+https://github.com/botswana-harvard/edc-registration@develop#egg=edc-registration
 git+https://github.com/botswana-harvard/edc-timepoint@develop#egg=edc-timepoint
 git+https://github.com/botswana-harvard/edc-visit-schedule@develop#egg=edc-visit-schedule
+git+https://github.com/erikvw/django-crypto-fields.git@develop#egg=django_crypto_fields
+git+https://github.com/clinicedc/edc-model-admin.git@develop#egg=edc_model_admin
+git+https://github.com/clinicedc/edc-form-validators.git@develop#egg=edc_form_validators
+git+https://github.com/clinicedc/edc-metadata.git@develop#egg=edc_metadata
+git+https://github.com/clinicedc/edc-reference.git@develop#edc_reference
+git+https://github.com/clinicedc/edc-lab.git@develop#egg=edc_lab
