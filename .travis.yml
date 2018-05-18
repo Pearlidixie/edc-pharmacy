@@ -41,7 +41,7 @@ before_script:
   # - mysql -e 'create database td_lab CHARACTER SET utf8;'
 
 script: 
-  - coverage run --source=edc_pharma manage.py test
+  - coverage run --source=edc_pharmacy manage.py test
 
 r_github_packages:
   - edc-pharmacy/covr
